@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: s6rasheedat-db-restore
+data:
+  AWS_DEFAULT_REGION: 'us-east-1'
+  DB_NAME: 's6rasheedat'
+  DB_USER: 'doadmin'
+  DB_HOST: 'db-postgresql-nyc3-26515-do-user-12198957-0.c.db.ondigitalocean.com'
+  DB_PORT: '25060'
+  #S3_BUCKET: 'del-db-backup/S6/s6rasheedat'
+  #BACKUP_File: "s6-user-2024-02-08_03-57-01.sql"
